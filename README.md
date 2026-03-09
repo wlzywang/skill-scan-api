@@ -71,6 +71,7 @@ You get: verdict + findings + summary
 
 ## Example Output
 **Quick Scan**
+
 https://skillsmp.com/skills/leoyeai-openclaw-backup-skill-md
 ```
 HIGH
