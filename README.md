@@ -61,9 +61,8 @@ You get: verdict + findings + summary
 
 ## Verdicts
 
-| Verdict | Recommendation | Meaning |
-|---|---|---|
-| **safe** | INSTALL | No issues found |
-| **suspicious** | REVIEW / CAUTION | Minor or moderate risks detected |
-| **unsafe** | BLOCK | Serious security risks — do not install |
-
+| Risk | Verdict | Recommendation | Meaning |
+|---|---|---|---|
+| NONE | **safe** | INSTALL | No issues found |
+| LOW/MEDIUM | **suspicious** | REVIEW / CAUTION | Minor or moderate risks detected |
+| HIGH | **unsafe** | BLOCK | Serious security risks — do not install |
