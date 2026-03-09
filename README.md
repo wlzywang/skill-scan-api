@@ -1,12 +1,12 @@
-# Skill Safety
+# SkillScan
 
 **Security scanner for Claude Code skills.** Scan any skill before you install it — get a structured safety report with MITRE ATT&CK-mapped findings, a clear verdict, and a plain-English summary.
 
-> Claude Code skills are powerful — but installing one means running someone else's code on your machine. Skill Safety tells you what a skill does before you trust it.
+> Claude Code skills are powerful — but installing one means running someone else's code on your machine. SkillScan tells you what a skill does before you trust it.
 
 ---
 
-## Why Skill Safety?
+## Why SkillScan?
 
 - **Fast** — 143 static rules run in milliseconds, no waiting
 - **Comprehensive** — covers 106 MITRE ATT&CK techniques across 15 attack categories
