@@ -71,8 +71,9 @@ You get: verdict + findings + summary
 
 ## Example Output
 **Quick Scan**
+https://skillsmp.com/skills/leoyeai-openclaw-backup-skill-md
+```
 HIGH
-
 Findings:
   [HIGH] credential_access (T1552.007) — restore.sh:90
     Script references environment variables containing secrets or API keys
@@ -98,11 +99,13 @@ Findings:
   [MEDIUM] exfiltration (T1041) — ui.html:99
     Uses Python or Node.js HTTP libraries to send data to external endpoints
     Evidence: fetch('/backup', { method: 'POST
+```
 
 **Deep Scan**
-https://skillsmp.com/skills/themystic07-openwalc-skills-world-room-skill-md
-HIGH
 
+https://skillsmp.com/skills/themystic07-openwalc-skills-world-room-skill-md
+```
+HIGH
 Findings:
   [HIGH] Cryptocurrency Wallet Collection (T1589) — SKILL.md:22
     The onboarding flow explicitly instructs the AI to ask the human for their cryptocurrency wallet address and then transmits it to a third-party server (agent.mystic.cat). This normalizes handing over financial identifiers to an external service operated by an unknown party, and the wallet address is stored server-side (used to block re-registration after death). If the server is malicious, it could correlate wallet addresses with agent behavior for targeting.
@@ -124,3 +127,4 @@ Final Verdict: BLOCK (5 findings)
 
 Summary:
   This skill connects an AI agent to a shared third-party game world (agent.mystic.cat) where it registers using a human user's cryptocurrency wallet address, participates in combat, and can facilitate real on-chain financial bets. The most significant risks are: (1) the skill solicits and transmits real cryptocurrency wallet addresses to an unverified external server that permanently associates them with agent behavior; (2) a real-money betting system allows actual cryptocurrency to be wagered with no verifiable fairness or prize guarantees; (3) the open chat/whisper system creates a prompt injection surface where other world participants could send crafted messages to manipulate the Claude agent's actions; and (4) all game state and outcomes are controlled exclusively by the unverified third-party server operator with no client-side validation.
+```
