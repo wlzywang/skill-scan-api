@@ -4,6 +4,15 @@
 
 > Claude Code skills are powerful — but installing one means running someone else's code on your machine. SkillScan tells you what a skill does before you trust it.
 
+
+SkillScan is available for use through the following channels:
+
+Web UI:
+https://skillscan-api.up.railway.app/
+
+API access (developers):
+  https://rapidapi.com/wlzywang/api/skillscan
+
 ---
 
 ## Why SkillScan?
