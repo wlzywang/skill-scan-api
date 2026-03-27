@@ -1,8 +1,8 @@
-# SkillScan
+# Skill TSA
 
 **Security scanner for Claude Code skills.** Scan any skill before you install it — get a structured safety report with MITRE ATT&CK-mapped findings, a clear verdict, and a plain-English summary.
 
-> Claude Code skills are powerful — but installing one means running someone else's code on your machine. SkillScan tells you what a skill does before you trust it.
+> Claude Code skills are powerful — but installing one means running someone else's code on your machine. Skill TSA tells you what a skill does before you trust it.
 
 
 SkillScan is available for use through the following channels:
@@ -15,9 +15,9 @@ API access (developers):
 
 ---
 
-## Why SkillScan?
+## Why Skill TSA?
 
-- **Fast** — 143 static rules run in milliseconds, no waiting
+- **Fast** — 147 static rules run in milliseconds, no waiting
 - **Comprehensive** — covers 106 MITRE ATT&CK techniques across 15 attack categories
 - **Actionable** — every finding tells you what, where, how serious, and why
 - **No setup** — one API call, structured JSON response, nothing to install or configure
@@ -31,7 +31,7 @@ API access (developers):
 You give us a skill URL
      |
      v
-143 security rules scan the skill in milliseconds
+147 security rules scan the skill in milliseconds
      |
      v
 You get: verdict + findings + summary
@@ -43,7 +43,7 @@ You get: verdict + findings + summary
 
 ## What It Detects
 
-143 rules covering 106 MITRE ATT&CK technique IDs across 15 categories:
+147 rules covering 108 MITRE ATT&CK technique IDs across 15 categories:
 
 | Category | What it catches | Severity |
 |---|---|---|
